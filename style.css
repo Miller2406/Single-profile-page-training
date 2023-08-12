@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    width: 360px;
+    height: 560px;
+    margin: 2rem auto;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    /* overflow: hidden; */
+}
+
+/* Tag in the top center */
+.tag {
+    /* border: 1px solid red; */
+    z-index: 1;
+    transform: translateX(-50%);
+    position: absolute;
+    background: tomato;
+    top: -15px;
+    left: 50%;
+    padding: .5rem 2rem;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.img {
+    height: 250px;
+    overflow: hidden;
+    background: brown;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+
+}
+
+.img img {
+    width: 360px;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 2px solid #e5e5e5;
+    height: 250px;
+    padding: 1rem;
+}
+
+.content h3 {
+    border-bottom: 1px solid #e5e5e5;
+
+}
+
+.content h1 {
+    margin: 1rem;
+}
+
+.content p {
+    color: #9e9090;
+}
+
+.footer {
+    /* background: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.ft-l {
+    display: flex;
+    align-items: center;
+    padding-left: .5rem;
+}
+
+.ft-l-img {
+    overflow: hidden;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+
+.ft-l-img img {
+    width: 35px;
+}
+
+.ft-r {
+    padding-right: 1rem;
+}
